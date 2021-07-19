@@ -1,0 +1,24 @@
+<html>
+    <style>
+        #data{
+            display:grid;
+            grid-template-columns: repeat(3,25%);
+            gap:5%
+        }
+    </style>
+    <body>
+        <form id="Form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="price" placeholder="Enter Price">
+        <input type="text" id="image" placeholder="Image">
+    </form>
+    <button onclick="addItems()">Add Items</button>
+    <button onclick="sortlh()">Sort Low To High </button>
+    <button onclick="sorthl()">Sort High To Low</button>
+    <button onclick="openCart()">Show Cart</button>
+
+    <div id="data"></div>
+    </body>
+</html>
+<script src=products.js
+></script>
